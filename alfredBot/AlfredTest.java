@@ -8,10 +8,12 @@ public class AlfredTest {
         String alfredTest = alfredBot.respondBeforeAlexis("I can't find my yo-yo. Maybe Alfred will know where it is.");
         String notRelevantTest = alfredBot.respondBeforeAlexis("Maybe that's what Batman is about. Not winning. But failing..");
         String response = alfredBot.answeringBeforeAlexis("Hi, I am Alfred");
+        String yelling = alfredBot.yell("Shivam", "low");
         System.out.println(testGreeting);
         System.out.println(testGuestGreeting);
         System.out.println(testDateAnnouncement);
         System.out.println(alexisTest);
         System.out.println(response);
+        System.out.println(yelling);
     }
 }
